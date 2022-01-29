@@ -1,0 +1,34 @@
+#board td
+{
+    border: solid 1px #666;
+    height: 50px;
+    width: 50px;
+}
+
+#column-top td
+{
+    border: dashed 1px lightgray;
+}
+
+#column-top td:hover
+{
+    background-color: gold;
+}
+
+.piece
+{
+    border-radius: 50%;
+    display: inline-block;
+    height: 80%;
+    width: 80%;
+}
+
+.player1
+{
+    background-color: red;
+}
+
+.player2
+{
+    background-color: blue;
+}
