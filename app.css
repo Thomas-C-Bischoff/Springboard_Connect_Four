@@ -12,7 +12,10 @@
 
 #column-top td:hover
 {
-    background-color: gold;
+    background-image: url(arrow.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
 }
 
 .piece
