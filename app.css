@@ -1,13 +1,13 @@
 #board td
 {
-    border: solid 1px #666;
-    height: 50px;
-    width: 50px;
+    border: solid 10px #666;
+    height: 100px;
+    width: 100px;
 }
 
 #column-top td
 {
-    border: dashed 1px lightgray;
+    border: dashed 10px lightgray;
 }
 
 #column-top td:hover
