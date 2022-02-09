@@ -107,11 +107,16 @@ function handleClick(evt)
         }
         else
         {
+            let rowCount = 0;
             for (row of board)
             {
                 if (!row.includes(undefined))
                 {
-                    endGame(`Players Tied.`)
+                    rowCount++;
+                }
+                if (rowCount === HEIGHT)
+                {
+                    endGame(`Players Tied.`);
                 }
             }
         }
